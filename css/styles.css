@@ -1,0 +1,185 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,h2,h4 {
+    color: #fff ;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 1rem auto;
+}
+
+p {
+    color: #fff;
+}
+
+/* GENERAL ANCHOR TAG SETUP */
+
+a:link, a:visited {
+    color: #fff;
+    
+}
+
+/* HEADER SECTION SETUP */
+
+header {
+    background-color: #87509c;
+    height: 75vh;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 1% 12%;
+}
+
+ul li {
+    padding: 0 .8rem;
+    margin-left: 4px;
+}
+
+ul li:hover {
+    background-color:#643a79;
+    border-radius: .3rem;
+   
+}
+
+.active {
+    background-color: #643a79;
+    border-radius: .3rem;
+}
+
+/* .logo {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 2.4rem auto auto 1rem;
+}
+
+.navigation ul li a {
+    padding: .1rem 1rem;
+    font-size: 1rem;
+}
+
+.navigation ul li:hover,.navigation ul li:active {
+    background-color: #643a79;
+    transition-duration: .3s;
+    border-radius: .3rem;
+ }
+
+#first-nav {
+    margin-left: 0;
+    background-color: #643a79;
+} */
+
+/* NAV SETUP WITH BOOTSTRAP-4  */
+
+
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+}
+
+.heading a{
+    margin: auto;
+    margin-top: 4%;
+}
+
+.btn {
+    background-color: #eb7d4b;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: .5rem 4rem;
+    
+}
+
+/* HEADER SECTION END */
+
+/* SERVICE SECTION STARTED */
+
+#service-section {
+    /* height: 100vh; */
+    background-color: #17c2a4;
+    padding: 4% 0;
+    text-align: center;
+    margin: auto;
+}
+
+#service-section .service {
+    padding: 0  25%;
+    margin-bottom: 4rem;
+}
+
+#service-section p {
+    color: #e0f7f3;
+}
+
+/* HEADING PROBLEM SOLUTION */
+
+.branding {
+    margin-top: 52px;
+}
+
+.design {
+    margin-top: 45px;
+}
+
+.development {
+    margin-top: 50px;
+}
+
+.rocket {
+    margin-top: 42px;
+}
+
+/* SERVICE SECTION END */
+
+/* TEAM SECTION START */
+
+#team {
+    background-color: #e7f1f8;
+    text-align: center;
+    margin: auto;
+    padding: 4% 0;
+}
+
+#team h2,p,h4 {
+    color: #3c4761;
+}
+
+#team h4 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+#team .team-content a{
+    display: block;
+    color: #379e56;
+    text-decoration: none;
+}
+
+#team .team-content p {
+    margin: 1rem 0;
+}   
+
+
+
+
+
